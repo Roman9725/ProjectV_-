@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Layout !</title>
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			.clearFix {
+				clear: both;
+			}
+
+			.mainWrap {
+				width: 100%;
+			}
+
+			.subWrap {
+				width: 960px;
+				display: block;
+				margin: 0 auto;
+			}
+
+			.logo {
+				background-color: grey;
+				height: 50px;
+				margin-bottom: 5px;
+			}
+
+			.navSec {
+				background-color: grey;
+				height: 35px;
+				margin-bottom: 5px;
+			}
+
+			.bannerSec {
+				background-color: grey;
+				height: 150px;
+				margin-bottom: 15px;
+			}
+
+			.sideBar {
+				float: left;
+				width: 32%;
+				background-color: grey;
+				height: 600px;
+			}
+
+			.mainContent {
+				float: right;
+				width: 66%;
+				background-color: grey;
+				height: 600px;
+			}
+
+			.footerSec {
+				background-color: grey;
+				height: 100px;
+				margin-top: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--start of top section-->
+
+		<div class="mainWrap">
+			<div class="subWrap">
+				<div class="logo">
+					<h1>LOGO</h1>
+				</div>
+				<div class="navSec">
+					<nav>
+						<h1>NAV</h1>
+					</nav>
+				</div>
+				<div class="bannerSec">
+					<h1>BANNER/HEADLINE</h1>
+				</div>
+			</div>
+		</div>
+
+		<!--Top section ends here-->
+
+		<!--start of middle section-->
+
+		<div class="mainWrap">
+			<div class="subWrap">
+				<div class="sideBar">
+					<h1>SIDEBAR</h1>
+				</div>
+				<div class="mainContent">
+					<h1>MAIN CONTENT</h1>
+				</div>
+			</div>
+		</div>
+
+		<!--middle section ends here-->
+
+		<div class="clearFix"></div>
+
+		<!--start of footer-->
+
+		<div class="mainWrap">
+			<div class="subWrap">
+				<div class="footerSec">
+					<footer>
+						<h1>FOOTER</h1>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		<!--middle section ends here-->
+	</body>
+</html>
